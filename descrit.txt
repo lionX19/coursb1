@@ -1,0 +1,84 @@
+ovo@DESKTOP-R1KGBS8 MINGW64 ~/Desktop/coursgitb1 (couleur_de_fond)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+lenovo@DESKTOP-R1KGBS8 MINGW64 ~/Desktop/coursgitb1 (couleur_de_fond)
+$ git add .
+
+lenovo@DESKTOP-R1KGBS8 MINGW64 ~/Desktop/coursgitb1 (couleur_de_fond)
+$ git commit -m "modification de la couleur de fond"
+[couleur_de_fond 8e225d8] modification de la couleur de fond
+ 1 file changed, 17 insertions(+)
+
+lenovo@DESKTOP-R1KGBS8 MINGW64 ~/Desktop/coursgitb1 (couleur_de_fond)
+$ git checkout master
+error: Your local changes to the following files would be overwritten by checkou
+t:
+        index.html
+Please commit your changes or stash them before you switch branches.
+Aborting
+
+lenovo@DESKTOP-R1KGBS8 MINGW64 ~/Desktop/coursgitb1 (couleur_de_fond)
+$ git add .
+
+lenovo@DESKTOP-R1KGBS8 MINGW64 ~/Desktop/coursgitb1 (couleur_de_fond)
+$ git commit -m "modification de la couleur de fond"
+[couleur_de_fond 530ea67] modification de la couleur de fond
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+
+lenovo@DESKTOP-R1KGBS8 MINGW64 ~/Desktop/coursgitb1 (couleur_de_fond)
+$ git checkout master
+error: Your local changes to the following files would be overwritten by checkou
+t:
+        style.css
+Please commit your changes or stash them before you switch branches.
+Aborting
+
+lenovo@DESKTOP-R1KGBS8 MINGW64 ~/Desktop/coursgitb1 (couleur_de_fond)
+$ git commit -m "modification de la couleur de fond"
+On branch couleur_de_fond
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   style.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+lenovo@DESKTOP-R1KGBS8 MINGW64 ~/Desktop/coursgitb1 (couleur_de_fond)
+$ git add .
+
+lenovo@DESKTOP-R1KGBS8 MINGW64 ~/Desktop/coursgitb1 (couleur_de_fond)
+$ git checkout master
+error: Your local changes to the following files would be overwritten by checkou
+t:
+        style.css
+Please commit your changes or stash them before you switch branches.
+Aborting
+
+lenovo@DESKTOP-R1KGBS8 MINGW64 ~/Desktop/coursgitb1 (couleur_de_fond)
+$ git status
+On branch couleur_de_fond
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   style.css
+
+
+lenovo@DESKTOP-R1KGBS8 MINGW64 ~/Desktop/coursgitb1 (couleur_de_fond)
+$ git commit -m "modification de la couleur de fond'
+>
+> "
+[couleur_de_fond 22bfd1b] modification de la couleur de fond'
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+
+lenovo@DESKTOP-R1KGBS8 MINGW64 ~/Desktop/coursgitb1 (couleur_de_fond)
+$ git checkout master
+Switched to branch 'master'
+
+lenovo@DESKTOP-R1KGBS8 MINGW64 ~/Desktop/coursgitb1 (master)
+$ ^Ct branch
+
+lenovo@DESKTOP-R1KGBS8 MINGW64 ~/Desktop/coursgitb1 (master)
+$
